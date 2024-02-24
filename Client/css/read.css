@@ -1,0 +1,24 @@
+.inner-content {
+    display: flex;
+}
+
+.inner-content .read {
+    width: 75%;
+    border: 0.1px solid #ccc;
+    float: left;
+    background: #fff;
+    padding: 15px;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+.inner-content .read .number-chapter {
+    text-align: center;
+    font-size: 20px;
+    color: var(--color-header);
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.inner-content .list-type-novel {
+    width: 25%;
+}
