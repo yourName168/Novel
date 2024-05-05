@@ -1,6 +1,0 @@
-Client/node_modules
-Client/.env
-Server/node_modules
-Server/.env
-Server/dist
-Server/novelBackend.pem
