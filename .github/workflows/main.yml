@@ -22,7 +22,7 @@ jobs:
 
       - name: Deploy to server
         run: |
-          ssh user@your_server_ip << 'EOF'
+          ssh root@193.203.160.126 << 'EOF'
           cd /path/to/your/project
           git pull origin main
           npm install
