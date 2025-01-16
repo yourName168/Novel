@@ -23,6 +23,8 @@ jobs:
       - name: Deploy to server
         run: |
           ssh -tt fastuser@193.203.160.126 << 'EOF'
+          sudo DEBIAN_FRONTEND=noninteractive apt-get update -y
+          sudo DEBIAN_FRONTEND=noninteractive apt-get upgrade -y
           cd /home/fastuser/www/your-domain.com
           git pull origin main
           npm install
